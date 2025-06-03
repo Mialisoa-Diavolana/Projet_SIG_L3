@@ -8,7 +8,7 @@ package="com.example.google_maps_in_flutter"
 
             <meta-data
                 android:name="com.google.android.geo.API_KEY"
-                android:value="AIzaSyBMGOwpayz39AMMmLcztiLmiKtuFysD7TI" />
+                android:value="${googleMapsApiKey}" />
 
         <activity
             android:name=".MainActivity"
